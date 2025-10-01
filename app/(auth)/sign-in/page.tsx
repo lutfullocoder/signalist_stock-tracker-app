@@ -30,6 +30,7 @@ const SignIn = () => {
 
                 <InputField
                     name={'email'}
+                    type={'email'}
                     label={'Email'}
                     placeholder={'contact@gmail.com'}
                     register={register}
