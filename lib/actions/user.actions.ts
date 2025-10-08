@@ -1,5 +1,4 @@
 import {connectToDatabase} from "@/database/mongoose";
-import {email} from "zod";
 
 export const getAllUsersForNewsEmail = async () => {
     try {
